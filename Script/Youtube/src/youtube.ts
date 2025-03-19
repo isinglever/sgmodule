@@ -35,9 +35,11 @@ export abstract class YouTubeMessage {
 
   decodeArgument (): Record<string, any> {
     const args = {
-      lyricLang: 'zh-Hans',
-      captionLang: 'zh-Hans',
+      lyricLang: 'zh-Hant',
+      captionLang: 'zh-Hant',
       blockUpload: true,
+      blockShorts: true,
+      blockExplore: true,
       blockImmersive: true,
       debug: false
     }
